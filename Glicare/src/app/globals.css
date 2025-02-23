@@ -9,6 +9,10 @@
   --foreground: #171717;
   --primary: #4568FC;
   --primary-gray: #F5F5F5;
+  --text-dark: #1C1C1C;
+  --text-blue: #0D1978;
+  --text-gray: #6F6F6F;
+  
   --font-roboto: "Roboto", sans-serif;
   --font-inter: "Inter", sans-serif;
 }
@@ -19,5 +23,17 @@ body {
   color: var(--foreground);
   background: var(--primary-gray);
   font-family: var(--font-inter);
+}
+
+.text-dark {
+  color: var(--text-dark);
+}
+
+.text-gray {
+  color: var(--text-gray);
+}
+
+.text-blue {
+  color: var(--text-blue);
 }
 

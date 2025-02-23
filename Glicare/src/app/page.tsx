@@ -1,4 +1,9 @@
+import Contact from "./components/Contact";
 
 export default function Home() {
-  return <div></div>;
+  return (
+    <div>
+    <Contact/>
+  </div>
+  )
 }
