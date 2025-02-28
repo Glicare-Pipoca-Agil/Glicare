@@ -16,23 +16,12 @@
   --font-inter: "Inter", sans-serif;
 }
 
-
-
 body {
   color: var(--foreground);
   background: var(--primary-gray);
   font-family: var(--font-inter);
 }
 
-.text-dark {
-  color: var(--text-dark);
+.slick-dots li.slick-active button:before {
+  color: var(--primary) !important; 
 }
-
-.text-gray {
-  color: var(--text-gray);
-}
-
-.text-blue {
-  color: var(--text-blue);
-}
-

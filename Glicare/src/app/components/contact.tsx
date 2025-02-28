@@ -5,12 +5,12 @@ import IconWhatsApp from "@/public/svg/icon-whatsapp";
 
 export default function Contact() {
   return (
-    <section className="min-h-screen w-full flex-shrink-0 bg-primary-gray lg:px-20">
+    <section className="w-full flex-shrink-0 bg-primary-gray lg:px-20">
       <div className="py-12 px-6 text-left">
-        <h2 className="w-full pr-14 text-2xl lg:text-28 font-medium text-dark">
+        <h2 className="w-full pr-14 text-2xl lg:text-28 font-medium text-gray-dark">
           Entre em contato com o Glicare
         </h2>
-        <p className="w-full sm:w-700 mt-4 md:mt-6 pr-16 text-gray text-left text-lg lg:text-xl font-normal leading-tight">
+        <p className="w-full sm:w-700 mt-4 md:mt-6 pr-16 text-secondary-gray text-left text-lg lg:text-xl font-normal leading-tight">
           Caso ainda tenha dúvidas ou esteja com problema para utilizar o
           Glicare, você pode entrar em contato conosco abaixo:
         </p>
@@ -18,12 +18,12 @@ export default function Contact() {
         <div className="hidden md:flex flex-col md:flex-row gap-6 mt-64 lg:justify-center">
           <div className="w-336 h-310 flex-shrink-0 bg-background rounded-2xl p-6 text-center hidden md:block">
             <IconPhone className="mx-auto mt-34 bg-white" />
-            <h3 className="font-medium text-lg text-dark mt-6 mb-68">
+            <h3 className="font-medium text-lg text-gray-dark mt-6 mb-68">
               Nos contate diretamente
             </h3>
             <a
               href="tel:+5512345678901"
-              className="text-blue text-center text-xl font-semibold ml-6"
+              className="text-blue-dark text-center text-xl font-semibold ml-6"
             >
               +55 12 34567-8901
             </a>
@@ -31,7 +31,7 @@ export default function Contact() {
 
           <div className="w-336 h-310 flex-shrink-0 bg-background rounded-2xl p-6 text-center hidden md:block">
             <IconWhatsApp className="mx-auto mt-34 bg-white" />
-            <h3 className="font-medium text-lg text-dark mt-6 mb-64">
+            <h3 className="font-medium text-lg text-gray-dark mt-6 mb-64">
               Nos chame no WhatsApp
             </h3>
             <a
@@ -48,12 +48,12 @@ export default function Contact() {
 
           <div className="w-336 h-310 flex-shrink-0 bg-background rounded-2xl p-6 text-center hidden md:block">
             <IconEmail className="mx-auto mt-34 bg-white" />
-            <h3 className="font-medium text-lg text-dark mt-6 mb-68">
+            <h3 className="font-medium text-lg text-gray-dark mt-6 mb-68">
               Entre em contato pelo e-mail
             </h3>
             <a
               href="mailto:contato@glicare.com"
-              className="text-blue text-xl font-semibold"
+              className="text-blue-dark text-xl font-semibold"
             >
               contato@glicare.com
             </a>
