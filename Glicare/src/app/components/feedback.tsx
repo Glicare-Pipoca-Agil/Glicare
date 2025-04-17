@@ -36,7 +36,7 @@ export default function Feedback() {
             rotina e o controle das diabetes.
           </p>
         </div>
-        <div className="hidden md:flex justify-center gap-4">
+        <div className="hidden lg:flex justify-center gap-4">
           {usersFeedback.map((feedback) => (
             <div
               key={feedback.id}

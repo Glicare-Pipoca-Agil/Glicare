@@ -150,7 +150,7 @@ export default function WhoAre() {
   };
 
   return (
-    <section className="bg-primary-gray max-w-full pb-20 lg:px-20 overflow-x-hidden">
+    <section className="bg-primary-gray max-w-full pb-20 lg:px-16 overflow-x-hidden">
       <div className="px-6">
         <h2 className="text-gray-dark text-2xl md:text-28 lg:text-28 font-medium">
           Quem somos
@@ -161,7 +161,7 @@ export default function WhoAre() {
         </p>
       </div>
 
-      <div className="w-full mt-8 lg:mt-16 lg:mb-20 lg:px-20">
+      <div className="w-full mt-8 lg:mt-16 lg:px-20">
         <Slider {...settings}>
           {collaborators.map((collaborator) => (
             <div key={collaborator.id} className="mt-6">

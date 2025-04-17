@@ -6,6 +6,7 @@ import ToPacients from "@/app/components/to-pacients";
 import WhoAre from "@/app/components/who-are";
 import CallToDownloadSecondary from "@/app/components/call-to-download-secondary";
 import Feedback from "@/app/components/feedback";
+import StoresDownload from "./components/stores-download";
 
 export default function Home() {
   return (
@@ -18,6 +19,7 @@ export default function Home() {
       <About />
       <Contact />
       <WhoAre />
+      <StoresDownload/>
     </main>
   )
 }
