@@ -30,20 +30,28 @@ export default function FeedbackCarrosel() {
     dots: false,
     infinite: true,
     speed: 500,
-    slidesToShow: 1,
+    slidesToShow: 2,
     slidesToScroll: 1,
     arrows: false,
     autoplay: true,
+    responsive: [
+      {
+        breakpoint: 768,
+        settings: {
+          slidesToShow: 1,
+        },
+      },
+    ],
   };
 
   return (
-    <div className="md:hidden">
+    <div className="lg:hidden">
       <Slider {...settings}>
         {usersFeedback.map((feedback) => (
           <div key={feedback.id} className="px-2">
-            <div className="flex flex-col w-full h-80 justify-center items-center text-center gap-4 p-6 rounded-2xl bg-white font-inter">
+            <div className="flex flex-col md:w-full md:h-80 justify-center items-center text-center gap-4 p-6 rounded-2xl bg-white font-inter">
               <IconToCardFeedback />
-              <p className="font-normal text-gray-dark text-base px-6">
+              <p className="font-normal md:w-265 text-gray-dark text-base px-6">
                 {feedback.feedback}
               </p>
               <div className="bg-blue-400 w-16 h-16 rounded-full"></div>

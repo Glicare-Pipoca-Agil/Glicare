@@ -6,7 +6,7 @@ import CircleGrayMobile from "@/public/svg/circle-gray-mobile";
 
 export default function CallToDownload() {
   return (
-    <section className="lg:px-8">
+    <section className="pt-28 lg:px-8">
       <div className="flex items-end mx-8 rounded-3xl bg-gradient-background h-full lg:pt-36 lg:mx-16">
         <div className="flex flex-col justify-between px-4 py-10 gap-16 text-center h-full md:pl-16 md:pr-16 lg:pl-4 lg:items-center lg:flex-row lg:text-start">
           <div className="flex flex-col lg:gap-6 font-inter lg:px-10  ">

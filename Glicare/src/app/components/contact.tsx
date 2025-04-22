@@ -5,7 +5,7 @@ import IconWhatsApp from "@/public/svg/icon-whatsapp";
 
 export default function Contact() {
   return (
-    <section className="w-full flex-shrink-0 bg-primary-gray lg:px-20">
+    <section id="contatos" className="w-full flex-shrink-0 bg-primary-gray lg:px-20">
       <div className="py-12 px-6 text-left">
         <h2 className="w-full pr-14 text-2xl md:text-28 font-medium text-gray-dark">
           Entre em contato com o Glicare

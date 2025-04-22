@@ -25,7 +25,7 @@ const usersFeedback: IUsersFeedback[] = [
 ];
 export default function Feedback() {
   return (
-    <section>
+    <section id="depoimentos">
       <div className="flex flex-col gap-8 px-6 pt-14 md:pt-36 md:px-20 md:gap-16">
         <div className="flex flex-col gap-6 px-2">
           <h1 className="text-gray-dark font-medium text-2xl w-60 md:w-full md:text-28">
@@ -36,7 +36,7 @@ export default function Feedback() {
             rotina e o controle das diabetes.
           </p>
         </div>
-        <div className="hidden md:flex justify-center gap-4">
+        <div className="hidden lg:flex justify-center gap-4">
           {usersFeedback.map((feedback) => (
             <div
               key={feedback.id}
